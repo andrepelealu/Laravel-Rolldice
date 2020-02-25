@@ -23,4 +23,10 @@ class firstController extends Controller
         $nama = $data->input('nama');
         return 'nama:'.$nama;
     }
+    public function blade1(){
+        return view('blade1');
+    }
+    public function blade2(){
+        return view('blade2');
+    }
 }

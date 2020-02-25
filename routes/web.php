@@ -22,4 +22,5 @@ Route::get('test','firstController@index');
 Route::get('/mahasiswa/{nama}','firstController@mahasiswa');
 Route::get('/daftar/form','firstController@form');
 Route::post('/daftar/form/action','firstController@postForm');
-
+Route::get('/testblade/satu','firstController@blade1');
+Route::get('/testblade/dua','firstController@blade2');
