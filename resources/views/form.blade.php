@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorial Laravel - www.malasngoding.com</title>
+	<title>Form</title>
 </head>
 <body>
  
-	<form action="/daftar/form/action" method="post">
+	<form action="/daftar/form/player" method="post">
 		<input type = "hidden" name = "_token" value = "<?php echo csrf_token() ?>">
       
-      	Nama :
-		<input type="text" name="nama"> <br/>
-		Alamat :
-		<input type="text" name="alamat"> <br/>
+      	Jumlah Pemain:
+		<input type="number" name="jumlah"> <br/>
+	
 		<input type="submit" value="Simpan">
 	</form>
  
